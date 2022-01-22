@@ -92,7 +92,8 @@ button:focus {
 #mainnav .navbar-brand{
 color: #ffffff;
 font-size: 1.5rem;
-font-weight: 100;
+font-weight: 400;
+font: bold;
 }
 
 #mainnav .nav-link{
@@ -133,10 +134,119 @@ color: rgb(0, 0, 0);
     visibility: hidden;
   }
 
+  
+
+
+}
+@media  (max-width:600px){
   #progress{
     display:none !important;
     visibility: hidden !important;
   }
+  
+}
 
 
+
+
+
+
+
+
+.footer-container .row{
+  display:flex;
+  justify-content:center
+  
+
+}
+
+.footer{
+  background: #6B99C7;
+  color: #000000;
+  font-size: 14px;
+  padding: 60px 0 30px;
+ 
+}
+
+.footer .row{
+  margin:0 100px
+}
+
+.footer p {
+  color: #000000;
+
+}
+
+.footer h3{
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+  min-width:250px;
+  margin-bottom: 20px;
+  
+}
+.footer-col-1{
+ flex-basis:25%;
+
+}
+.footer-col-2{
+  flex-basis: 25%;
+  text-align: center;
+}
+.footer-col-1 img{
+      width: 180px;
+      margin-bottom: 20px;
+}
+.footer-col-3 , .footer-col-4{
+flex:25%;
+text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 140px;
+}
+
+.footer hr {
+  border: none;
+  background: #000000;
+  height: 3px;
+  margin: 20px 0;
+
+}
+
+.footer p{
+  text-align: center;
+}
+h2 {
+  width: 1000px;
+}
+
+.row-3{
+  display: flex;
+  
+  justify-content:space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
 }
